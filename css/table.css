@@ -105,3 +105,13 @@ td {
 .supershy-table-head-blue tbody tr:last-child td {
 	border-bottom: 1px solid #ccc;
 }
+
+.supershy-table-horizontal th,
+.supershy-table-horizontal td {
+	border-left: none;
+}
+
+.supershy-table-vertical th,
+.supershy-table-vertical td {
+	border-bottom: none;
+}

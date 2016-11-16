@@ -1,0 +1,50 @@
+.super-menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+.super-menu-list li {
+    padding: .5em 1em;
+}
+
+.super-menu-width {
+    width: 10em;
+    box-sizing: border-box;
+}
+
+.super-menu-horizontal {
+	/* width: 100%; */
+	font-size: 0;
+}
+
+.super-menu-horizontal li {
+	font-size: 1rem;
+	display: inline-block;
+	position: relative;
+	padding: 0;
+}
+
+.super-menu-horizontal > ul > li > a{
+	padding: .5em 1em;
+	display: block
+}
+
+.super-menu-horizontal > ul > li:hover .super-menu-children {
+	display: block;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.super-menu-horizontal li .super-menu-children {
+	position: absolute;
+	left: 0;
+	display: none;
+}
+
+.super-menu-horizontal li .super-menu-children li {
+	display: block;
+	padding: .5em 1em;
+}
+
+.super-menu-list li:hover {
+    background-color: #eee;
+}
